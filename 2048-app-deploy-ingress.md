@@ -2,6 +2,7 @@
 
 ## Create Fargate profile
 
+eksctl create fargateprofile --cluster demo2-cluster --name alb-sample-app --namespace game-2048 --region us-east-1
 ```
 eksctl create fargateprofile \
     --cluster demo-cluster \
